@@ -3,7 +3,7 @@ import Phonetic from "./Phonetic";
 import Meaning from "./Meaning";
 import "./Results.css";
 
-export default function Results(props) {
+function Results(props) {
     if (props.results) {
         return (
             <div className="Results">
@@ -29,4 +29,5 @@ export default function Results(props) {
     } else {
         return null;
     }
+    export default Results;
 }

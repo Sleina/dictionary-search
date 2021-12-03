@@ -1,7 +1,7 @@
 import React from "react";
 import "./Photos.css";
 
-export default function Photos(props) {
+function Photos(props) {
     if (props.photos) {
         return (
             <section className="Photos">
@@ -25,4 +25,5 @@ export default function Photos(props) {
     } else {
         return null;
     }
+    export default Photos;
 }
